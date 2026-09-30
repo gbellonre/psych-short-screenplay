@@ -1,0 +1,6 @@
+.DS_Store
+*.skill.zip
+.claude/
+projects/*/03-draft.fountain
+projects/*/04-cut.fountain
+!projects/_template/**
