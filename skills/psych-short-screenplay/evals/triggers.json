@@ -1,0 +1,12 @@
+{
+  "skill": "psych-short-screenplay",
+  "test_cases": [
+    {"input": "write an 8 minute psychological horror short film screenplay", "should_trigger": true},
+    {"input": "beat sheet for a psychological thriller short", "should_trigger": true},
+    {"input": "punch up this quiet horror two-hander dialogue", "should_trigger": true},
+    {"input": "Seedance shot list from my short film script", "should_trigger": true},
+    {"input": "write a rom-com feature outline", "should_trigger": false},
+    {"input": "YouTube essay script about elevated horror history", "should_trigger": false},
+    {"input": "fix this Python function", "should_trigger": false}
+  ]
+}

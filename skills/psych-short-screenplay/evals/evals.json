@@ -1,0 +1,44 @@
+{
+  "skill": "psych-short-screenplay",
+  "test_cases": [
+    {
+      "name": "just_go_two_hander",
+      "input": "Just go. 8 minute hybrid psychological thriller-horror short. 2 actors, one night interior. A night clerk finds someone already signed into the logbook under her name.",
+      "assertions": [
+        "outputs a Locked Sheet before the Fountain draft",
+        "runtime stays between 8 and 12 pages",
+        "no character names the theme or says they are scared",
+        "antagonist has a private want",
+        "final image is photographable and unexplained"
+      ]
+    },
+    {
+      "name": "rewrite_on_the_nose_scene",
+      "input": "Punch up this scene. The guard says 'I don't know what's real anymore' and the stranger explains the building is a metaphor for guilt.",
+      "assertions": [
+        "quotes the offending lines",
+        "removes theme-naming dialogue",
+        "replaces explanation with behavior or an object",
+        "keeps the scene's value turn"
+      ]
+    },
+    {
+      "name": "shot_pack_after_draft",
+      "input": "Turn the approved 10-minute draft into Seedance/Kling shot prompts. Do not change the story.",
+      "assertions": [
+        "does not invent new plot",
+        "shots are 8-15 seconds",
+        "each shot has IMAGE SOUND WITHHOLD and PROMPT",
+        "continuity header repeats wardrobe and unclean object state"
+      ]
+    },
+    {
+      "name": "refuse_feature_bloat",
+      "input": "Write a 90-page psychological horror feature with three act structure and a B-story romance.",
+      "assertions": [
+        "does not write a feature",
+        "offers to compress into an 8-12 minute short or refuses the feature scope"
+      ]
+    }
+  ]
+}

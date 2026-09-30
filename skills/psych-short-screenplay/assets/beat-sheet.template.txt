@@ -1,0 +1,4 @@
+BEAT [#] — [page] — [location]
+[Photographable change]
+VALUE TURN: [from] → [to]
+IRREVERSIBLE: [what cannot be undone] | [CUT CANDIDATE]
